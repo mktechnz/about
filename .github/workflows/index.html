@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Systems Consultant | Small Business Support</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-blue: #3498db;
+            --secondary-blue: #2980b9;
+            --accent-tan: #d2b48c;
+            --dark-grey: #2c3e50;
+            --light-bg: #f4f7f6;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark-grey);
+            background-color: var(--light-bg);
+            margin: 0;
+        }
+
+        /* Hero Section */
+        header {
+            background: linear-gradient(rgba(52, 152, 219, 0.9), rgba(41, 128, 185, 0.9)), url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: var(--white);
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid var(--white);
+            background-color: var(--white);
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        h1 { margin: 10px 0; font-size: 2.5em; }
+        .tagline { font-size: 1.2em; font-weight: 300; opacity: 0.9; }
+
+        /* Main Content */
+        .container {
+            max-width: 1100px;
+            margin: -40px auto 40px;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .service-box {
+            border-top: 4px solid var(--primary-blue);
+            padding: 20px;
+            background: #fafafa;
+            border-radius: 0 0 8px 8px;
+        }
+
+        h2 { color: var(--primary-blue); border-bottom: 2px solid var(--accent-tan); padding-bottom: 10px; }
+        h3 { color: var(--secondary-blue); margin-top: 0; }
+
+        /* Case Studies */
+        .case-study {
+            background: #eef7fd;
+            border-left: 5px solid var(--primary-blue);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .result-badge {
+            display: inline-block;
+            background: var(--accent-tan);
+            color: #fff;
+            padding: 2px 10px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            background: var(--dark-grey);
+            color: white;
+        }
+
+        .btn {
+            display: inline-block;
+            background: var(--primary-blue);
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: background 0.3s;
+            margin-top: 20px;
+        }
+
+        .btn:hover { background: var(--secondary-blue); }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 1.8em; }
+            .card { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="hero-container">
+        <img src="character.jpg" alt="IT Systems Consultant Avatar" class="profile-img">
+        <h1>IT Systems Consultant & Partner</h1>
+        <p class="tagline">Windows/Linux Server Specialist | Docker Expert | Hardware & Software Repair</p>
+    </div>
+</header>
+
+<div class="container">
+    <div class="card">
+        <p style="font-size: 1.2em; text-align: center; max-width: 800px; margin: 0 auto 40px;">
+            Helping Small Businesses scale with reliable IT systems through professional systems administration and full-cycle hardware lifecycle management.
+        </p>
+
+        <div class="grid">
+            <div class="service-box">
+                <h3><i class="fas fa-network-wired"></i> Managed IT Support</h3>
+                <ul>
+                    <li><strong>Security & Backups:</strong> Automated data protection and firewalls.</li>
+                    <li><strong>Cloud Infrastructure:</strong> Remote work setups and local network storage (NAS).</li>
+                    <li><strong>Maintenance:</strong> Proactive network monitoring to stop downtime before it starts.</li>
+                </ul>
+            </div>
+
+            <div class="service-box">
+                <h3><i class="fas fa-tools"></i> Lifecycle Management</h3>
+                <ul>
+                    <li><strong>OS Deployment:</strong> Clean installs for Windows, macOS, and Linux.</li>
+                    <li><strong>Expert Repair:</strong> Component-level fixes (Screens, Logic Boards, Batteries).</li>
+                    <li><strong>Optimization:</strong> Upgrading aging fleets with SSDs to save on capital expenditure.</li>
+                </ul>
+            </div>
+
+            <div class="service-box">
+                <h3><i class="fas fa-server"></i> Linux & Docker</h3>
+                <ul>
+                    <li><strong>Containerization:</strong> Streamlined app deployment via Docker.</li>
+                    <li><strong>Self-Hosted Solutions:</strong> Open source self hosted cloud office/storage to slash SaaS subscription costs or rise above vendor outages.</li>
+                    <li><strong>Hardened Servers:</strong> Secure server setup for web and internal tools.</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2 style="margin-top: 60px;">Proven Results for Small Business</h2>
+        
+        <div class="case-study">
+            <h3>Infrastructure Overhaul</h3>
+            <p><strong>Problem:</strong> Frequent crashes and zero data redundancy.</p>
+            <p><strong>Solution:</strong> Custom Linux-based NAS for automated backups and a stabilized Wi-Fi mesh network.</p>
+            <span class="result-badge">Result: 100% Data Redundancy</span>
+        </div>
+
+        <div class="case-study">
+            <h3>Legacy Hardware Recovery</h3>
+            <p><strong>Problem:</strong> A fleet of laptops slated for disposal.</p>
+            <p><strong>Solution:</strong> Diagnosed hardware failures, replaced faulty RAM/SSDs, and optimized OS versions.</p>
+            <span class="result-badge">Result: Saved client $4,000 in replacement costs</span>
+        </div>
+
+        <div class="case-study">
+            <h3>Dockerised Application Deployment</h3>
+            <p><strong>The Project:</strong> Migrating an internal database and web tools into containers.</p>
+            <p><strong>The Result:</strong> Reduced server resource usage by 30% and simplified updates to a single command.</p>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="mktech@techie.com" class="btn">Contact Me for a Kōrero</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 IT Systems Consultant. MKTechNZ.</p>
+</footer>
+
+</body>
+</html>
